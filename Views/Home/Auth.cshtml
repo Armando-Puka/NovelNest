@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Authentication";
+}
+
+<div class="row mt-3">
+    <div class="text-center text-white">
+        <h1>Welcome To NovelNest</h1>
+        <p class="fs-23">The zone where all book lovers and book enthusiasts come together</p>
+    </div>
+    <div class="col-6">
+        @await Html.PartialAsync("_Registration")
+    </div>
+
+    <div class="col-6">
+        @await Html.PartialAsync("_Login")
+    </div>
+</div>

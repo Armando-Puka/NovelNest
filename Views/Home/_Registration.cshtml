@@ -1,0 +1,43 @@
+@model User
+
+<div class="row mt-4">
+    <div class="col-10 offset-md-2 authentication-form-color authentication-border border-radius-7 p-4 m-auto">
+        <h4 class="text-center mb-4 text-white font-bold">Create a Nest</h4>
+        <form asp-action="Register" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="text-white font-bold mb-1">Name <span class="red-asterisk">*</span></label>
+                <input asp-for="Name" class="authentication-border rounded custom-input">
+                <span asp-validation-for="Name" class="text-danger mb-1"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="LastName" class="text-white font-bold mb-1">Last Name <span class="red-asterisk">*</span></label>
+                <input asp-for="LastName" class="authentication-border rounded custom-input">
+                <span asp-validation-for="LastName" class="text-danger mb-1"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="text-white font-bold mb-1">Email Address <span class="red-asterisk">*</span></label>
+                <input asp-for="Email" class="authentication-border rounded custom-input">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="text-white font-bold mb-1">Password <span class="red-asterisk">*</span></label>
+                <input asp-for="Password" class="authentication-border rounded custom-input">
+                <span asp-validation-for="Password" class="text-danger mb-1"></span>
+            </div>
+            
+            
+            <div class="form-group mb-3">
+                <label asp-for="PasswordConfirm" class="text-white font-bold mb-1">Confirm Password <span class="red-asterisk">*</span></label>
+                <input asp-for="PasswordConfirm" class="authentication-border rounded custom-input">
+                <span asp-validation-for="PasswordConfirm" class="text-danger mb-1"></span>
+            </div>
+            
+            <div class="form-group d-flex justify-content-end">
+                <input type="submit" class="authentication-button btn-outline-pastel-red authentication-border text-white font-bold" value="Register">
+            </div>
+        </form>
+    </div>
+</div>

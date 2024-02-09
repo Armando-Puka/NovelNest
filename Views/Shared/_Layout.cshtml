@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NovelNest</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NovelNest.styles.css" asp-append-version="true" />
+</head>
+<body class="@((Context.Request.Path == "/Auth"|| Context.Request.Path == "/Login" || Context.Request.Path == "/Register") ? "auth-background" : "")">
+    @if (Context.Request.Path == "/Auth" || Context.Request.Path == "/Login" || Context.Request.Path == "/Register") {
+        @await Html.PartialAsync("Partial_NavBars/_Authentication_NavBar")
+    } else {
+        @await Html.PartialAsync("Partial_NavBars/_Main_NavBar")
+        @* @await Html.PartialAsync("Partial_NavBars/_SideBar") *@
+    }
+    <div class="container @(Context.Request.Path == "/Auth" || Context.Request.Path == "/Login" || Context.Request.Path == "/Register" ? "" : "")">
+        <main role="main" class="pb-3 @(Context.Request.Path == "/Auth" || Context.Request.Path == "/Login" || Context.Request.Path == "/Register" ? "" : "")">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(function (navLink) {
+                        navLink.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+
+            const currentPageUrl = window.location.pathname;
+            navLinks.forEach(function (link) {
+                if (link.getAttribute('href') === currentPageUrl) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

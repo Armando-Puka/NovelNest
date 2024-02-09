@@ -1,0 +1,140 @@
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.csproj.AssemblyReference.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfo.cs
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cs
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\appsettings.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.staticwebassets.runtime.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.exe
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.deps.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.runtimeconfig.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\NovelNest.pdb
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Humanizer.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\scopedcss\bundle\NovelNest.styles.css
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\scopedcss\projectbundle\NovelNest.bundle.scp.css
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CopyComplete
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\refint\NovelNest.dll
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.pdb
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\NovelNest.genruntimeconfig.cache
+C:\Users\root\Desktop\Coding Dojo\C#\NovelNest\obj\Debug\net6.0\ref\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.csproj.AssemblyReference.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfoInputs.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfo.cs
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CoreCompileInputs.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cs
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\refint\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.pdb
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\appsettings.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.staticwebassets.runtime.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.exe
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.deps.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.runtimeconfig.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\NovelNest.pdb
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\scopedcss\bundle\NovelNest.styles.css
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\scopedcss\projectbundle\NovelNest.bundle.scp.css
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CopyComplete
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\NovelNest.genruntimeconfig.cache
+C:\Users\Armando Puka\Downloads\NovelNest 2.zip-20240206T131944Z-001\NovelNest 2\NovelNest\obj\Debug\net6.0\ref\NovelNest.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\appsettings.json
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.staticwebassets.runtime.json
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.exe
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.deps.json
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.runtimeconfig.json
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\NovelNest.pdb
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Humanizer.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\root\Downloads\NovelNest\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.csproj.AssemblyReference.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfoInputs.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfo.cs
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CoreCompileInputs.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cs
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\scopedcss\bundle\NovelNest.styles.css
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\scopedcss\projectbundle\NovelNest.bundle.scp.css
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CopyComplete
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.dll
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\refint\NovelNest.dll
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.pdb
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\NovelNest.genruntimeconfig.cache
+C:\Users\root\Downloads\NovelNest\obj\Debug\net6.0\ref\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\appsettings.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.staticwebassets.runtime.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.exe
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.deps.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.runtimeconfig.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\NovelNest.pdb
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.csproj.AssemblyReference.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfoInputs.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.AssemblyInfo.cs
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CoreCompileInputs.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.RazorAssemblyInfo.cs
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\scopedcss\bundle\NovelNest.styles.css
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\scopedcss\projectbundle\NovelNest.bundle.scp.css
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.csproj.CopyComplete
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\refint\NovelNest.dll
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.pdb
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\NovelNest.genruntimeconfig.cache
+C:\Users\Armando Puka\Downloads\NovelNest - Final.zip-20240209T163934Z-001\NovelNest - Final\NovelNest\obj\Debug\net6.0\ref\NovelNest.dll

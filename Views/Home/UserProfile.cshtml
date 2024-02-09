@@ -1,0 +1,30 @@
+@model User
+
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">@Model.Name @Model.LastName's Profile </p>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center gap-100 height-90">
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.ProfilePicture)" class="user-profile-image" alt="User Profile Picture" />
+        
+        <div>
+            <p class="font-bold">Name</p>
+            <p>@Model.Name</p>
+            
+            <p class="font-bold">Books Published</p>
+            <p>@Model.BooksPublished.Count()</p>
+        </div>
+        <div>
+            <p class="font-bold">Last Name</p>
+            <p>@Model.LastName</p>
+
+            <p class="font-bold">Account Created</p>
+            <p>@Model.CreatedAt.ToShortDateString()</p>
+        </div>
+    </div>
+</div>

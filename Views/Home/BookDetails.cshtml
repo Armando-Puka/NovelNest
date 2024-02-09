@@ -1,0 +1,33 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">@Model.BookTitle Details</p>
+    </div>
+
+    <div class="d-flex align-items-center width-100 margin-left-5-percent gap-50 height-90">
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.BookCover)" class="book-details-image" alt="book-cover" />
+
+        <div>
+            <h3 class="mb-3">@Model.BookTitle</h3>
+
+            <p class="font-size-18 d-flex flex-column description-width"><span class="font-bold">Description:</span> @Model.BookDescription</p>
+            <p class="font-size-18 d-flex flex-column"><span class="font-bold">Pages:</span> @Model.BookPages</p>
+            <p class="font-size-18 d-flex flex-column"><span class="font-bold">Chapters:</span> @Model.BookChapters</p>
+            <p class="font-size-18 d-flex flex-column"><span class="font-bold">Genre:</span> @Model.BookGenre</p>
+            <p class="font-size-18 d-flex flex-column"><span class="font-bold">Published:</span> @Model.CreatedAt.ToShortDateString()</p>
+            <p class="font-size-18 d-flex flex-column"><span class="font-bold">User Posted:</span> <a class="username-in-card" asp-controller="Home" asp-action="UserProfile" asp-route-id="@Model.UserId">@Model.BookAuthor.Name @Model.BookAuthor.LastName</a></p>
+
+            @if (ViewBag.IsBookOwner) {
+                <div class="d-flex gap-50 mt-3">
+                    <a class="edit-book-button" asp-area="" asp-controller="Home" asp-action="EditBook" asp-route-bookId="@Model.BookId">Edit</a>
+                    <a class="delete-book-button" asp-area="" asp-controller="Home" asp-action="DeleteBook" asp-route-bookId="@Model.BookId">Delete</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

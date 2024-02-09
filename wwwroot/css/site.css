@@ -1,0 +1,484 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF675F;
+  border-radius: 10px;
+}
+
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  font-family: 'Montserrat', sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #FF675F #2c2c2c;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  height: 100vh;
+  scrollbar-face-color: #FF675F;
+  scrollbar-track-color: #2c2c2c;
+}
+
+body.auth-background {
+  background: url('../images/Authentication-Image.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.custom-navbar {
+  background-color: #222;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.reset-navbar {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.authentication-border {
+  border: 2px solid #FF675F;
+}
+
+.text-pastel-red {
+  color: #FF675F;
+}
+
+.navbar-icon {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #FF675F !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.padding-15 {
+  padding: 15px !important;
+}
+
+.margin-left-5-percent {
+  margin-left: 5%;
+}
+
+.background-dark {
+  background-color: #222;
+}
+
+.authentication-form-color {
+  background-color: #31384450;
+}
+
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  padding: 5px;
+  background-color: #31384450;
+  color: #FF675F;
+  outline: none;
+}
+
+.red-asterisk {
+  color: red;
+}
+
+.font-size-18 {
+  font-size: 18px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.font-size-14 {
+  font-size: 14px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.fs-23 {
+  font-size: 23px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-outline-pastel-red {
+  border: 2px solid #FF675F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-outline-pastel-red:hover {
+  background-color: #FF675F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.authentication-button {
+  background-color: #31384450;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+.last-page-mark {
+  width: 70px;
+  height: 100px;
+  background-color: #FF675F;
+  margin-left: 20px;
+}
+
+.border-radius-7 {
+  border-radius: 7px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #FF675F;
+}
+
+.profile-dropdown {
+  background-color: #222;
+  color: #fff;
+  border: 3px solid #FF675F;
+  border-radius: 10px;
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  z-index: 1;
+  display: none;
+
+}
+
+.sidebar-border {
+  border-right: 2px solid #222;
+  border-bottom: 2px solid #222;
+}
+
+.m-0-auto {
+  margin: auto;
+}
+
+.margin-left-15 {
+  margin-left: 15px !important;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.description-width {
+  width: 650px !important;
+  overflow-wrap: break-word !important;
+}
+
+.height-90 {
+  height: 90%;
+}
+
+.height-100-percent {
+  height: 100%;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.surprise-me-button {
+  width: 100%;
+  text-align: center;
+  background-color: #FF675F;
+  border: 3px solid #222;
+  margin-left: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.surprise-me-button:hover {
+  border: 2px solid #FF675F;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.logout-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.main-body-container {
+  border: 3px solid #222;
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  margin: 25px auto;
+}
+
+.main-body-header {
+  background-color: #222;
+  color: #fff;
+  height: 60px;
+  border-bottom: 3px solid #222;
+}
+
+.main-body-header p {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 15px;
+}
+
+.book-card-container {
+  display: flex;
+  height: calc(100% - 60px);
+  width: 100%;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.book-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid #FF675F;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  gap: 10px;
+  margin: 20px 0px 20px 20px;
+  transition: 0.3s;
+  background-color: #222;
+  color: #fff;
+}
+
+.book-cover {
+  width: 50%;
+  height: 100%;
+  border: 3px solid #FF675F;
+  border-radius: 10px;
+  margin-top: 15px;
+  object-fit: cover;
+  object-position: center center;  
+  overflow: hidden;
+}
+
+.book-info {
+  width: 90%;
+  padding: 5px;
+  outline: none;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px !important;
+}
+
+.username-in-card {
+  color: #FF675F;
+  text-decoration: none;
+}
+
+.username-in-card:hover {
+  color: #e67c77;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.book-card-button {
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-card-button:hover {
+  background-color: #FF675F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.profile-buttons {
+  background-color: #FF675F;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-buttons:hover {
+  background-color: transparent;
+  color: #FF675F;
+  transition: 0.3s;
+}
+
+.edit-profile-button {
+  background-color: #FF675F;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-profile-button:hover {
+  background-color: transparent;
+  color: #FF675F;
+  transition: 0.3s;
+}
+
+.edit-book-button {
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  color: #FF675F;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-book-button:hover {
+  background-color: #FF675F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.delete-book-button {
+  background-color: #FF675F;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-book-button:hover {
+  background-color: transparent;
+  color: #FF675F;
+  transition: 0.3s;
+}
+
+.publish-book-button {
+  background-color: #FF675F;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 25px;
+  border: 3px solid #FF675F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.publish-book-button:hover {
+  background-color: transparent;
+  color: #FF675F;
+  transition: 0.3s;
+}
+
+.user-profile-image {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #FF675F;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.my-profile-image {
+  width: 360px;
+  height: 400px;
+  border: 3px solid #FF675F;
+}
+
+.book-details-image {
+  width: 300px;
+  height: 400px;
+  border: 3px solid #FF675F;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center center;
+}

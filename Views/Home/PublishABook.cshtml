@@ -1,0 +1,60 @@
+@model BookViewModel
+
+@{
+    ViewData["Title"] = "Publish A Book";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">Publish A Book</p>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center width-100 border border-dark height-90">
+        <form asp-action="PublishABook" method="post" enctype="multipart/form-data">
+            <div class="form-group mb-3">
+                <label asp-for="BookCover" class="font-bold">Cover Image:</label>
+                <input type="file" id="BookCover" name="BookCover" accept="image/*" class="form-control-file" />
+                <span asp-validation-for="BookCover" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="BookTitle" class="font-bold">Book Title:</label>
+                <input asp-for="BookTitle" id="title" name="BookTitle" class="form-control border border-2 border-dark" />
+                <span asp-validation-for="BookTitle" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="BookDescription" class="font-bold">Description:</label>
+                <textarea id="description" name="BookDescription" class="form-control border border-2 border-dark"></textarea>
+                <span asp-validation-for="BookDescription" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex gap-20">
+                <div class="form-group mb-3">
+                    <label asp-for="BookPages" class="font-bold">Number of Pages:</label>
+                    <input asp-for="BookPages" id="pages" name="BookPages" class="form-control border border-2 border-dark" />
+                    <span asp-validation-for="BookPages" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BookChapters" class="font-bold">Number of Chapters:</label>
+                    <input asp-for="BookChapters" id="chapters" name="BookChapters" class="form-control border border-2 border-dark" />
+                    <span asp-validation-for="BookChapters" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BookGenre" class="font-bold">Book Genre:</label>
+                    <select asp-for="BookGenre" class="form-control border border-2 border-dark">
+                        <option value="">Select Genre</option>
+                        @foreach (var genre in ViewBag.Genres) {
+                            <option value="@genre">@genre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="BookGenre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <button type="submit" class="publish-book-button">Publish Book</button>
+        </form>
+    </div>
+</div>

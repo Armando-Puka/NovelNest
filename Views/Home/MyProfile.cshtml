@@ -1,0 +1,38 @@
+@model User
+
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">My Profile</p>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center gap-20 height-90">
+        <div class="d-flex gap-100">
+            <div class="profile-picture-container">
+                <img src="@(Model.ProfilePicture != null ? $"data:image/jpeg;base64,{Convert.ToBase64String(Model.ProfilePicture)}" : "~/images/user.png")" class="my-profile-image" alt="Profile Picture" />
+                <form asp-action="UploadProfilePicture" method="post" enctype="multipart/form-data" class="d-flex flex-column">
+                    <input type="file" id="ProfilePicture" name="ProfilePicture" accept="image/*" class="form-control-file" />
+                    <button type="submit" class="profile-buttons">Upload Profile Picture</button>
+                </form>
+            </div>
+
+            <div class="profile-info d-flex flex-column justify-content-between">
+                <p class="font-size-18 d-flex flex-column"><span class="font-bold">First Name</span> @Model.Name</p>
+
+                <p class="font-size-18 d-flex flex-column"><span class="font-bold">Last Name</span> @Model.LastName</p>
+
+                <p class="font-size-18 d-flex flex-column"><span class="font-bold">Email</span> @Model.Email</p>
+
+                <p class="font-size-18 d-flex flex-column"><span class="font-bold">Account Created</span> @Model.CreatedAt</p>
+
+                <p class="font-size-18 d-flex flex-column"><span class="font-bold">Books Published</span> @Model.BooksPublished.Count()</p>
+
+                <a asp-action="EditProfile" class="profile-buttons">Edit Profile</a>
+                @* <button type="submit" class="btn btn-primary">Save Changes</button> *@
+            </div>
+        </div>
+    </div>
+</div>

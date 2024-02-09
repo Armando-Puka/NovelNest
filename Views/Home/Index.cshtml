@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Explore Books";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">Explore Books</p>
+    </div>
+
+    <div class="book-card-container">
+        @foreach (var book in ViewBag.Books) {
+            <div class="book-card">
+                <img src="data:image/jpeg;base64,@Convert.ToBase64String(book.BookCover)" class="book-cover" alt="book-cover" />
+                <div class="book-info">
+                    <p class="fs-23 book-title">@book.BookTitle</p>
+                    <p class="font-size-14"><span class="font-bold">Uploaded Date:</span> @book.CreatedAt</p>
+                    <p class="font-size-14"><span class="font-bold">User Posted:</span> <a class="username-in-card" asp-controller="Home" asp-action="UserProfile" asp-route-id="@book.UserId">@book.BookAuthor?.Name @book.BookAuthor?.LastName</a></p>
+                    <p class="font-size-14"><span class="font-bold">Pages:</span> @book.BookPages</p>
+                    <p class="font-size-14"><span class="font-bold">Chapters:</span> @book.BookChapters</p>
+                    <p class="font-size-14"><span class="font-bold">Genre:</span> @book.BookGenre</p>
+                </div>
+                <a asp-controller="Home" asp-action="BookDetails" asp-route-bookId="@book.BookId" class="book-card-button">Book Details</a>
+            </div>
+        }
+    </div>
+</div>

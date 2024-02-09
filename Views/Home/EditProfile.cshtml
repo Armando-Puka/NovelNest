@@ -1,0 +1,33 @@
+@model User
+
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<div class="main-body-container">
+    <div class="main-body-header">
+        <p class="fs-23 margin-left-15">Edit Profile</p>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center width-100 border border-dark height-90">
+        <form asp-action="UpdateProfile" method="post" class="width-50">
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="font-bold">Name:</label>
+                <input asp-for="Name" class="form-control border border-2 border-dark" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="LastName" class="font-bold">Last Name:</label>
+                <input asp-for="LastName" class="form-control border border-2 border-dark" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="font-bold">Email:</label>
+                <input asp-for="Email" class="form-control border border-2 border-dark" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="edit-profile-button">Save Changes</button>
+        </form>
+    </div>
+</div>

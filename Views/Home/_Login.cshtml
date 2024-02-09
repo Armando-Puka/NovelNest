@@ -1,0 +1,24 @@
+@model LoginUser
+
+<div class="row mt-4">
+    <div class="col-8 offset-md-2 authentication-form-color authentication-border border-radius-7 p-4 m-auto">
+    <h4 class="text-center mb-4 text-white font-bold">Return To Your Nest</h4>
+        <form asp-action="Login" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="LoginEmail" class="text-white font-bold mb-1">Email Address</label>
+                <input asp-for="LoginEmail" class="authentication-border rounded custom-input">
+                <span asp-validation-for="LoginEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="LoginPassword" class="text-white font-bold mb-1">Password</label>
+                <input asp-for="LoginPassword" class="authentication-border rounded custom-input">
+                <span asp-validation-for="LoginPassword" class="text-danger mb-1"></span>
+            </div>
+
+            <div class="form-group d-flex justify-content-end">
+                <input type="submit" class="authentication-button btn-outline-pastel-red authentication-border text-white font-bold" value="Log In">
+            </div>
+        </form>
+    </div>
+</div>
